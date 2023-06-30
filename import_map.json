@@ -1,0 +1,12 @@
+{
+    "imports": {
+      "mongo": "https://deno.land/x/mongo@v0.31.1/mod.ts",
+      "std/": "https://deno.land/std@0.165.0/",
+      "bcrypt": "https://deno.land/x/bcrypt@v0.4.1/mod.ts",
+      "djwt": "https://deno.land/x/djwt@v2.8/mod.ts",
+      "oak": "https://deno.land/x/oak@v11.1.0/mod.ts",
+      "router": "https://deno.land/x/oak@v11.1.0/router.ts",
+      "dotenv" : "https://deno.land/x/dotenv@v3.2.0/mod.ts",
+      "oakQuery" : "https://deno.land/x/oak@v11.1.0/helpers.ts"
+    }
+  }
