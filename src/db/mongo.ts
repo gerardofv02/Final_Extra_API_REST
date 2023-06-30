@@ -3,6 +3,7 @@ import { MongoClient, Database } from "mongo";
 
 
 import { config } from "dotenv";
+import { EventoSchema } from "./schema.ts";
 
 
 
@@ -30,3 +31,5 @@ const connectMongoDB = async (): Promise<Database> => {
 
 const db = await connectMongoDB();
 console.info(`MongoDB ${db.name} connected`);
+
+export const eventosCollections = db.collection<EventoSchema>("Eventos");
